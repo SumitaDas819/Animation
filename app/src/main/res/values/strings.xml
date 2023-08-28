@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Animation</string>
+    <string name="trans">Translate</string>
+    <string name="roat">Rotation</string>
+    <string name="scal">Scale</string>
+    <string name="alph">Alpha</string>
+    <string name="splscont">"     "Start\nAnimation</string>
+    <string name="transbtn">Translate Animation</string>
+    <string name="rorationbtn">Rotation Animation</string>
+    <string name="scalebtn">Scale Animation</string>
+    <string name="alphabtn">Alpha Animation</string>
+</resources>

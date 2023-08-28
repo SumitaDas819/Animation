@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.AppCompatButton
+       android:id="@+id/btntrans"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:backgroundTint="@color/design_default_color_error"
+       android:text="@string/trans">
+   </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnroat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0827F1"
+        android:text="@string/roat">
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnscal"
+        android:text="@string/scal"
+        android:layout_width="wrap_content"
+        android:backgroundTint="#0AEF14"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnalph"
+        android:text="@string/alph"
+        android:layout_width="wrap_content"
+        android:backgroundTint="#EF920A"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/retative"
+
+        >
+
+        <TextView
+            android:id="@+id/txtaanimview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:textSize="40sp"
+            android:layout_marginRight="10dp"
+            android:text="Animation\nView"
+            android:textColor="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+    </RelativeLayout>
+</LinearLayout>
